@@ -10,7 +10,6 @@ import (
 )
 
 func RegisterRoutes(router *mux.Router, db *gorm.DB) {
-	// Handler baru untuk root path
 	router.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintln(w, "API Project 4 Kelompok 2")
 	})

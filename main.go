@@ -30,7 +30,7 @@ func main() {
 	// Determine port for HTTP service
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "8080" // Default port if not specified
+		port = "8080"
 	}
 
 	// Start the server
