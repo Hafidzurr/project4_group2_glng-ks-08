@@ -7,10 +7,10 @@
 ##
 ##
 ## API URL 
-#### https://project3group2glng-ks-08-production.up.railway.app/
+#### https://project4group2glng-ks-08-production.up.railway.app/
 ##
 ## Postman Documentation
-#### https://documenter.getpostman.com/view/24258835/2s9YeD7CK4
+#### https://documenter.getpostman.com/view/24258835/2s9YeD7CK9
 ##
 ## System Requirement
 * Golang.
