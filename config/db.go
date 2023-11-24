@@ -28,7 +28,7 @@ var (
 func ConnectDB() (*gorm.DB, error) {
 	dsn := os.Getenv("DATABASE_URL")
 	if dsn == "" {
-		// dsn = "host=host user=postgres dbname=market password=Hafidzurr1 sslmode=disable" // Lokal DB config
+		// dsn = "host=host user=postgres dbname=kanban_board password= sslmode=disable" // Lokal DB config
 		dsn = fmt.Sprintf("host=%s user=%s password=%s dbname=%s port=%s sslmode=disable", host, user, password, dbname, dbPort)
 	}
 	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
